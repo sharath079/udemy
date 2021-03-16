@@ -5,4 +5,4 @@ jobs:
           - image: circleci/openjdk:8-browsers-legacy
         steps:
           - checkout
-          - run: mvn compile
+          - run: mvn package
